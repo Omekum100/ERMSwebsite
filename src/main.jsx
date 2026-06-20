@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import {
   BookOpen,
   CalendarDays,
+  ExternalLink,
   GraduationCap,
   HeartHandshake,
   Home,
@@ -129,6 +130,9 @@ function Header({ page }) {
             {item.label}
           </a>
         ))}
+        <a className="parent-org-link" href="https://nests.tribal.gov.in/" target="_blank" rel="noreferrer">
+          NESTS <ExternalLink size={15} />
+        </a>
       </nav>
     </header>
   );

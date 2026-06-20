@@ -358,6 +358,26 @@ nav a.active {
   color: #fff8e4;
 }
 
+.parent-org-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid rgba(178, 58, 47, 0.28);
+  background: #b23a2f;
+  color: #fff8e4;
+  box-shadow: 0 12px 24px rgba(178, 58, 47, 0.16);
+}
+
+.parent-org-link:hover {
+  background: #173d2b;
+  color: #fff8e4;
+  box-shadow: 0 16px 30px rgba(23, 61, 43, 0.2);
+}
+
+.parent-org-link svg {
+  flex: 0 0 auto;
+}
+
 .hero {
   position: relative;
   display: grid;
